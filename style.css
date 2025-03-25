@@ -157,6 +157,7 @@ section#joke-section {
    body {
       background-size: cover;
       height: 100vh;
+      font-size: 1.2rem;
    }
 
    section#joke-section {
@@ -168,6 +169,10 @@ section#joke-section {
    #joke-content {
       flex: 1 1 60%;
       height: auto;
+   }
+
+   #joke-content .joke-content-text h1 {
+      font-size: 1.5rem;
    }
 
    #joke-buttons {
