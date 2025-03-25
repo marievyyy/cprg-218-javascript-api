@@ -7,4 +7,16 @@ Using an API can allow you to create dynamic web applications by adding addition
 
 ## Attributions
 
-All work is original and created by Ivy Marie Porras.
+Images:
+- kept. "A vibrant pixel art landscape featuring lush green grass, trees, and a bright blue sky filled with fluffy clouds, evoking a classic video game scene". Adobe Stock. Accessed: Mar 24, 2025. [Online]. Available: [Adobe Stock](https://stock.adobe.com/si/images/a-vibrant-pixel-art-landscape-featuring-lush-green-grass-trees-and-a-bright-blue-sky-filled-with-fluffy-clouds-evoking-a-classic-video-game-scene/986546394)
+
+- Maxim Tarasenkov. "Pixel Game User Interface". Figma Community. Accessed: Mar 24, 2025. [Online]. Available: [Figma](https://www.figma.com/community/file/1011931045593978833)
+
+Sounds:
+- SoundReality. "Mouse Click Sound". Pixabay. Accessed: Mar 24, 2025. [Online]. Available: [Pixabay](https://pixabay.com/sound-effects/mouse-click-sound-233951/)
+
+- XtremeFreddy. "Game Music Loop 7". Pixabay. Accessed: Mar 24, 2025. [Online]. Available: [Pixabay](https://pixabay.com/sound-effects/game-music-loop-7-145285/)
+
+
+
+All code work is original and created by Ivy Marie Porras.
