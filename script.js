@@ -22,3 +22,8 @@ function getJoke(category) {
 );
 
 getJoke("Any");
+
+// changing joke container
+const update = () => jokeImgContainer.src = window.innerWidth <= 600 ? 'images/jokecontainer-mobile.webp' : 'images/jokecontainer.webp';
+window.addEventListener('resize', update);
+update();

@@ -116,6 +116,19 @@ section#joke-section {
    transform: scale(0.95);
 }  
 
+/* bgm button */
+#bgmToggle {
+   cursor: pointer;
+   position: absolute;
+   top: 1rem;
+   right: 1rem;
+   background-color: transparent;
+   border: none;
+   font-family: inherit;
+   color: #FEF3E2;
+   padding: 1rem;
+}
+
 /* Media Query */
 @media screen and (min-width: 600px) {
    #joke-buttons h2 {
