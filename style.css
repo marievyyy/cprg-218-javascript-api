@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap');
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   position: relative;
+   font-family: "Pixelify Sans", sans-serif;
+   background-image: url('images/magiccliffs.jpg');
+   background-repeat: no-repeat;
+   margin: 0;
+   font-size: 0.8rem;
+}
+
+body::after {
+   content: "";
+   background: rgba(0, 0, 0, 0.3);
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+}
+
+
+section#joke-section {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+   margin-inline: 2rem;
+   padding: 5rem 0 3rem;
+}
+
+#joke-content {
+   position: relative;
+   height: 400px;
+}
+
+#joke-content .joke-content-text {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 2rem 4rem;
+}
+
+#joke-content .joke-content-text h1 {
+   font-family: "Press Start 2P", sans-serif;
+   font-size: 0.9rem;
+   color: #5D2E1C;
+   text-align: center;
+   text-transform: uppercase;
+   line-height: 1.2;
+}
+
+#joke-content .joke-content-text p {
+   color: #451B0B;
+   text-align: center;
+   line-height: 1.5;
+}
+
+#joke-content img {
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+}
+
+
+
+#joke-buttons {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: start;
+   gap: 1rem;
+   text-align: center;
+}
+
+#joke-buttons h2 {
+   max-width: 400px;
+   margin-top: 0;
+   color: #fff;
+}
+
+#joke-buttons button {
+   cursor: pointer;
+   padding: 1rem 0;
+   background-image: url('images/button.png');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-color: transparent;
+   border: 0;
+   margin: 0 auto;
+   width: 15rem;
+   text-align: center;
+   font-family: inherit;
+   font-size: 1rem;
+   transition: all 0.2s ease;
+}
+
+#joke-buttons button:hover {
+   transform: scale(1.05);
+}
+
+#joke-buttons button:active {
+   transform: scale(0.95);
+}  
+
+/* Media Query */
+@media screen and (min-width: 600px) {
+   #joke-buttons h2 {
+      max-width: 100%;
+      flex: 1 1 100%;
+   }
+}
+
+
+@media screen and (min-width: 769px) {
+   section#joke-section {
+      padding: 5rem 4rem;
+   }
+
+   #joke-buttons h2 {
+      flex: 1 1 100%;
+      max-width: none;
+   }
+
+   #joke-buttons button {
+      flex: 0 0 250px;
+   }
+}
+
+@media screen and (min-width: 1024px) {
+   body {
+      background-size: cover;
+      height: 100vh;
+   }
+
+   section#joke-section {
+      flex-direction: row;
+      height: 100vh;
+      gap: 6rem;
+   }
+
+   #joke-content {
+      flex: 1 1 60%;
+      height: auto;
+   }
+
+   #joke-buttons {
+      flex: 1 1 40%;
+   }
+
+   #joke-content .joke-content-text {
+      flex-direction: column;
+   }
+}
+
+@media screen and (min-width: 1200px) {
+   section#joke-section {
+      margin-inline: 10rem;
+   }
+
+   #joke-content {
+      width: 400px;
+   }
+
+   #joke-content .joke-content-text {
+      padding: 5rem 8rem;
+   }
+}
