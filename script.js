@@ -10,7 +10,7 @@ function getJoke(category) {
             ? "Joke Of The Day"
             : category === "Pun"
                ? "A Random Pun"
-               : `A Random ${category} Joke`;
+               : `A Random ${category.charAt(0).toUpperCase() + category.slice(1)} Joke`;
       });
 }
 
