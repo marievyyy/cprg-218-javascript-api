@@ -12,6 +12,8 @@ Images:
 
 - Maxim Tarasenkov. "Pixel Game User Interface". Figma Community. Accessed: Mar 24, 2025. [Online]. Available: [Figma](https://www.figma.com/community/file/1011931045593978833)
 
+- Flaticon. "Kitty free icon". Flaticon.com Accessed: Mar 24, 2025. [Online]. Available: [Flaticon](https://www.flaticon.com/free-icon/kitty_763769?term=laughing&page=1&position=64&origin=search&related_id=763769)
+
 Sounds:
 - SoundReality. "Mouse Click Sound". Pixabay. Accessed: Mar 24, 2025. [Online]. Available: [Pixabay](https://pixabay.com/sound-effects/mouse-click-sound-233951/)
 
