@@ -8,7 +8,7 @@ function getJoke(category) {
             data.type === "single" ? data.joke : `${data.setup} ... ${data.delivery}`;
          jokeTitle.textContent = category === "Any"
             ? "Joke Of The Day"
-            : category === "Pun"
+            : category === "pun"
                ? "A Random Pun"
                : `A Random ${category.charAt(0).toUpperCase() + category.slice(1)} Joke`;
       });
