@@ -31,8 +31,11 @@ getJoke("Any");
 
 // Try to play automatically on page load
 window.addEventListener('load', () => {
-   bgm.play().catch(err => {
+   bgm.play().then(() => {
+      bgmToggle.textContent = 'Pause Music';
+   }).catch(err => {
       console.warn('Autoplay was prevented:', err);
+      bgmToggle.textContent = 'Play Music'; // update text if autoplay fails
    });
 });
 
